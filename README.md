@@ -1,3 +1,5 @@
+Collection of various logs run on a HTCondor cluster and a Slurm cluster.
+
 ![graph1](condor_cpu_single.png)
 ![graph2](condor_vs_slurm_cpu_single.png)
 ![graph3](gpu_burn_results.png)
