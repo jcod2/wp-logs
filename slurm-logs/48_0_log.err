@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib64/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/admin/.local/lib/python3.9/site-packages/submitit/core/_submit.py", line 11, in <module>
+    submitit_main()
+  File "/home/admin/.local/lib/python3.9/site-packages/submitit/core/submission.py", line 76, in submitit_main
+    process_job(args.folder)
+  File "/home/admin/.local/lib/python3.9/site-packages/submitit/core/submission.py", line 37, in process_job
+    env = job_environment.JobEnvironment()
+  File "/home/admin/.local/lib/python3.9/site-packages/submitit/core/job_environment.py", line 44, in __new__
+    return plugins.get_job_environment()
+  File "/home/admin/.local/lib/python3.9/site-packages/submitit/core/plugins.py", line 91, in get_job_environment
+    envs = get_job_environments()
+  File "/home/admin/.local/lib/python3.9/site-packages/submitit/core/plugins.py", line 108, in get_job_environments
+    return {env.name(): env for env in _get_plugins()[1]}
+  File "/home/admin/.local/lib/python3.9/site-packages/submitit/core/plugins.py", line 51, in _get_plugins
+    for entry_point in _iter_submitit_entrypoints():
+  File "/home/admin/.local/lib/python3.9/site-packages/submitit/core/plugins.py", line 31, in _iter_submitit_entrypoints
+    return metadata.entry_points()["submitit"]
+KeyError: 'submitit'
+srun: error: slurm01: task 0: Exited with exit code 1

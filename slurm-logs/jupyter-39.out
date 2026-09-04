@@ -1,0 +1,12 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting submitit
+  Downloading submitit-1.5.4-py3-none-any.whl (76 kB)
+Requirement already satisfied: typing_extensions>=3.7.4.2 in /usr/local/lib/python3.9/site-packages (from submitit) (4.15.0)
+Collecting cloudpickle>=1.2.1
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Installing collected packages: cloudpickle, submitit
+Successfully installed cloudpickle-3.1.2 submitit-1.5.4
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: submitit in /home/admin/.local/lib/python3.9/site-packages (1.5.4)
+Requirement already satisfied: typing_extensions>=3.7.4.2 in /usr/local/lib/python3.9/site-packages (from submitit) (4.15.0)
+Requirement already satisfied: cloudpickle>=1.2.1 in /home/admin/.local/lib/python3.9/site-packages (from submitit) (3.1.2)

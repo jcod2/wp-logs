@@ -1,0 +1,27 @@
+[I 2026-05-19 11:28:52.701 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-05-19 11:28:52.705 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-05-19 11:28:52.705 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.4.6
+[I 2026-05-19 11:28:52.705 JupyterHubSingleUser] Using default url from server extension lab: /lab
+[E 2026-05-19 11:28:52.706 JupyterHubSingleUser] Failed to load JupyterHubSingleUser server extension
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.9/site-packages/jupyterhub/singleuser/extension.py", line 283, in wrapped
+        r = f(self, *args, **kwargs)
+      File "/usr/local/lib/python3.9/site-packages/jupyterhub/singleuser/extension.py", line 562, in load_config_file
+        self.serverapp.update_config(self.config)
+      File "/usr/local/lib/python3.9/site-packages/traitlets/config/configurable.py", line 244, in update_config
+        self._load_config(config)
+      File "/usr/local/lib/python3.9/site-packages/traitlets/config/configurable.py", line 214, in _load_config
+        warn(msg)
+      File "/usr/lib64/python3.9/contextlib.py", line 126, in __exit__
+        next(self.gen)
+      File "/usr/local/lib/python3.9/site-packages/traitlets/traitlets.py", line 1509, in hold_trait_notifications
+        raise e
+      File "/usr/local/lib/python3.9/site-packages/traitlets/traitlets.py", line 1495, in hold_trait_notifications
+        value = trait._cross_validate(self, getattr(self, name))
+      File "/usr/local/lib/python3.9/site-packages/traitlets/traitlets.py", line 749, in _cross_validate
+        value = obj._trait_validators[self.name](obj, proposal)
+      File "/usr/local/lib/python3.9/site-packages/traitlets/traitlets.py", line 1260, in __call__
+        return self.func(*args, **kwargs)
+      File "/usr/local/lib/python3.9/site-packages/jupyter_server/serverapp.py", line 1859, in _root_dir_validate
+        raise TraitError(trans.gettext("No such directory: '%r'") % value)
+    traitlets.traitlets.TraitError: No such directory: ''/home/admin/notebooks''

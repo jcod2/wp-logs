@@ -1,0 +1,11 @@
+=== HTCondor condor-node02 Audit ===
+Timestamp:  Wed Apr 22 15:15:14 IST 2026
+OS Version: Rocky Linux 9.7 (Blue Onyx)
+CPU Model:   Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+Logical Cores: 4
+Total RAM:  7.4Gi
+--- Network Test ---
+Ping to Google DNS (8.8.8.8):
+rtt min/avg/max/mdev = 4.919/5.139/5.259/0.155 ms
+--- End Audit ---
+

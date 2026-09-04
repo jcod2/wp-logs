@@ -1,0 +1,355 @@
+[I 2026-05-19 11:19:29.584 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-05-19 11:19:29.588 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-05-19 11:19:29.588 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.4.6
+[I 2026-05-19 11:19:29.588 JupyterHubSingleUser] Using default url from server extension lab: /lab
+[I 2026-05-19 11:19:29.591 ServerApp] jupyterhub | extension was successfully linked.
+[W 2026-05-19 11:19:29.592 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-05-19 11:19:29.595 ServerApp] jupyterlab | extension was successfully linked.
+[W 2026-05-19 11:19:29.596 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-05-19 11:19:29.599 ServerApp] notebook | extension was successfully linked.
+[I 2026-05-19 11:19:29.841 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-05-19 11:19:30.266 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-05-19 11:19:30.269 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-05-19 11:19:30.270 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-05-19 11:19:30.275 JupyterHubSingleUser] Updating Hub with activity every 300 seconds
+[I 2026-05-19 11:19:30.275 ServerApp] jupyterhub | extension was successfully loaded.
+[I 2026-05-19 11:19:30.280 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.9/site-packages/jupyterlab
+[I 2026-05-19 11:19:30.280 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2026-05-19 11:19:30.280 LabApp] Extension Manager is 'pypi'.
+[I 2026-05-19 11:19:30.324 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-05-19 11:19:30.347 ServerApp] notebook | extension was successfully loaded.
+[I 2026-05-19 11:19:30.348 ServerApp] Serving notebooks from local directory: /home/admin
+[I 2026-05-19 11:19:30.348 ServerApp] Jupyter Server 2.18.2 is running at:
+[I 2026-05-19 11:19:30.348 ServerApp] http://slurm01:33745/user/admin/lab?token=...
+[I 2026-05-19 11:19:30.348 ServerApp]     http://127.0.0.1:33745/user/admin/lab?token=...
+[I 2026-05-19 11:19:30.348 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2026-05-19 11:19:30.562 ServerApp] 200 GET /user/admin/api (@10.172.13.24) 1.62ms
+[I 2026-05-19 11:19:30.589 ServerApp] 302 GET /user/admin/ -> /user/admin/lab? (@10.172.13.12) 0.76ms
+[W 2026-05-19 11:19:30.595 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab
+[W 2026-05-19 11:19:30.599 ServerApp] No Hub user identified for request
+[W 2026-05-19 11:19:30.599 ServerApp] Token stored in cookie may have expired
+[I 2026-05-19 11:19:30.614 ServerApp] 302 GET /user/admin/lab? -> /hub/api/oauth2/authorize?client_id=jupyterhub-user-admin&redirect_uri=%2Fuser%2Fadmin%2Foauth_callback&response_type=code&state=[secret] (@10.172.13.12) 19.18ms
+[I 2026-05-19 11:19:30.905 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-05-19 11:19:30.990 ServerApp] Logged-in user admin
+[I 2026-05-19 11:19:30.990 ServerApp] Setting new xsrf cookie for b'5d31a49f4dfd4f689f7d7920f426443c:a3ef7a4ea97e7f57aaa3c9450201a1b4087c6920a40c84a6072703725a95386b' {'path': '/user/admin/'}
+[W 2026-05-19 11:19:30.991 ServerApp] Skipping XSRF check for insecure request GET /user/admin/oauth_callback
+[I 2026-05-19 11:19:30.991 ServerApp] 302 GET /user/admin/oauth_callback?code=[secret]&state=[secret] -> /user/admin/lab? (admin@10.172.13.12) 292.85ms
+[W 2026-05-19 11:19:30.998 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab
+[I 2026-05-19 11:19:31.003 ServerApp] 200 GET /user/admin/lab? (admin@10.172.13.12) 6.02ms
+[W 2026-05-19 11:19:31.051 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/extensions/jupyterlab_pygments/static/remoteEntry.5cbb9d2323598fbda535.js
+[W 2026-05-19 11:19:31.052 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/extensions/@jupyter-notebook/lab-extension/static/remoteEntry.c632334bd55eee9396d9.js
+[W 2026-05-19 11:19:31.356 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/extensions/jupyterlab_pygments/static/568.1e2faa2ba0bbe59c4780.js
+[W 2026-05-19 11:19:31.357 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/extensions/jupyterlab_pygments/static/747.67662283a5707eeb4d4c.js
+[W 2026-05-19 11:19:31.359 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/extensions/@jupyter-notebook/lab-extension/static/568.2f7f31e96b64d4644947.js
+[W 2026-05-19 11:19:31.360 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/extensions/@jupyter-notebook/lab-extension/static/928.c5591028020898165924.js
+[W 2026-05-19 11:19:31.362 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/extensions/@jupyter-notebook/lab-extension/static/706.7d82f974df5f17e8844a.js
+[W 2026-05-19 11:19:31.363 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/extensions/@jupyter-notebook/lab-extension/static/93.eae3497dd223d842d198.js
+[I 2026-05-19 11:19:31.405 ServerApp] 200 GET /user/admin/api/me?1779185971388 (admin@10.172.13.12) 0.68ms
+[I 2026-05-19 11:19:31.485 ServerApp] 200 GET /user/admin/lab/api/settings?1779185971399 (admin@10.172.13.12) 79.69ms
+[I 2026-05-19 11:19:31.487 ServerApp] 200 GET /user/admin/api/sessions?1779185971402 (admin@10.172.13.12) 1.34ms
+[I 2026-05-19 11:19:31.487 ServerApp] 200 GET /user/admin/api/kernelspecs?1779185971388 (admin@10.172.13.12) 92.86ms
+[I 2026-05-19 11:19:31.488 ServerApp] 200 GET /user/admin/api/kernels?1779185971402 (admin@10.172.13.12) 1.93ms
+[W 2026-05-19 11:19:31.489 ServerApp] Skipping XSRF check for insecure request GET /user/admin/api/events/subscribe
+[I 2026-05-19 11:19:31.489 ServerApp] 101 GET /user/admin/api/events/subscribe (admin@10.172.13.12) 1.21ms
+[I 2026-05-19 11:19:31.490 ServerApp] 200 GET /user/admin/api/terminals?1779185971402 (admin@10.172.13.12) 1.43ms
+[I 2026-05-19 11:19:31.491 ServerApp] 200 GET /user/admin/api/me?1779185971408 (admin@10.172.13.12) 1.00ms
+[I 2026-05-19 11:19:31.494 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779185971403 (admin@10.172.13.12) 3.61ms
+[I 2026-05-19 11:19:31.496 ServerApp] 200 GET /user/admin/api/kernelspecs?1779185971493 (admin@10.172.13.12) 1.09ms
+[I 2026-05-19 11:19:31.655 ServerApp] 200 GET /user/admin/lab/api/translations/default?1779185971636 (admin@10.172.13.12) 15.91ms
+[I 2026-05-19 11:19:31.666 ServerApp] 200 GET /user/admin/api/config/jupyterlabapputilsextensionannouncements?1779185971661 (admin@10.172.13.12) 1.93ms
+[I 2026-05-19 11:19:31.698 ServerApp] 200 GET /user/admin/lsp/status?1779185971692 (admin@10.172.13.12) 3.15ms
+[I 2026-05-19 11:19:31.763 ServerApp] 200 GET /user/admin/lab/api/translations?1779185971742 (admin@10.172.13.12) 19.01ms
+[I 2026-05-19 11:19:31.770 ServerApp] 200 GET /user/admin/lab/api/settings/@jupyterlab/codemirror-extension:plugin?1779185971766 (admin@10.172.13.12) 2.63ms
+[W 2026-05-19 11:19:31.788 ServerApp] Skipping XSRF check for insecure request GET /user/admin/lab/api/themes/@jupyterlab/theme-light-extension/index.css
+[I 2026-05-19 11:19:31.923 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779185971886 (admin@10.172.13.12) 33.81ms
+[I 2026-05-19 11:19:31.972 ServerApp] 200 GET /user/admin/lab/api/settings/@jupyterlab/docmanager-extension:plugin?1779185971962 (admin@10.172.13.12) 7.02ms
+[I 2026-05-19 11:19:31.979 ServerApp] 200 GET /user/admin/lab/api/settings/@jupyterlab/notebook-extension:panel?1779185971963 (admin@10.172.13.12) 6.22ms
+[W 2026-05-19 11:19:32.032 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-05-19 11:19:32.033 ServerApp] 200 GET /user/admin/lab/api/build?1779185971803 (admin@10.172.13.12) 225.59ms
+[I 2026-05-19 11:19:32.066 ServerApp] 200 GET /user/admin/lab/api/workspaces/default?1779185972062 (admin@10.172.13.12) 0.95ms
+[I 2026-05-19 11:19:32.225 ServerApp] 200 GET /user/admin/lab/api/settings?ids_only=true&1779185972217 (admin@10.172.13.12) 5.20ms
+[I 2026-05-19 11:19:32.278 ServerApp] 200 GET /user/admin/lab/api/update?1779185972218 (admin@10.172.13.12) 52.85ms
+[I 2026-05-19 11:19:32.279 ServerApp] 200 GET /user/admin/api/sessions?1779185972271 (admin@10.172.13.12) 0.72ms
+[I 2026-05-19 11:19:32.407 ServerApp] Kernel started: 39096c79-ad3b-4327-a649-51e05637b9bb
+[I 2026-05-19 11:19:32.466 ServerApp] 201 POST /user/admin/api/sessions?1779185972326 (admin@10.172.13.12) 136.85ms
+[I 2026-05-19 11:19:32.500 ServerApp] 200 GET /user/admin/api/sessions?1779185972469 (admin@10.172.13.12) 1.48ms
+[W 2026-05-19 11:19:32.509 ServerApp] Skipping XSRF check for insecure request GET /user/admin/api/kernels/39096c79-ad3b-4327-a649-51e05637b9bb/channels
+[I 2026-05-19 11:19:32.514 ServerApp] 200 PATCH /user/admin/api/sessions/dc267246-1566-4652-b81f-73ffa3a11dbc?1779185972508 (admin@10.172.13.12) 1.95ms
+[I 2026-05-19 11:19:32.516 ServerApp] 200 GET /user/admin/api/kernels?1779185972509 (admin@10.172.13.12) 0.92ms
+[I 2026-05-19 11:19:32.522 ServerApp] 200 PATCH /user/admin/api/sessions/dc267246-1566-4652-b81f-73ffa3a11dbc?1779185972517 (admin@10.172.13.12) 1.40ms
+[I 2026-05-19 11:19:32.523 ServerApp] 200 GET /user/admin/api/sessions?1779185972518 (admin@10.172.13.12) 0.93ms
+[I 2026-05-19 11:19:33.087 ServerApp] 101 GET /user/admin/api/kernels/39096c79-ad3b-4327-a649-51e05637b9bb/channels?session_id=370ca09d-e140-46d1-81b4-23d8c79bd885 (admin@10.172.13.12) 578.39ms
+[I 2026-05-19 11:19:33.087 ServerApp] Connecting to kernel 39096c79-ad3b-4327-a649-51e05637b9bb.
+[W 2026-05-19 11:19:33.089 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[W 2026-05-19 11:19:33.095 ServerApp] Skipping XSRF check for insecure request GET /user/admin/api/kernels/39096c79-ad3b-4327-a649-51e05637b9bb/channels
+[I 2026-05-19 11:19:33.098 ServerApp] 101 GET /user/admin/api/kernels/39096c79-ad3b-4327-a649-51e05637b9bb/channels?session_id=bbfcbfbb-46a5-44c7-8084-e7b8ae9bf734 (admin@10.172.13.12) 3.39ms
+[I 2026-05-19 11:19:33.098 ServerApp] Connecting to kernel 39096c79-ad3b-4327-a649-51e05637b9bb.
+[W 2026-05-19 11:19:33.106 ServerApp] Skipping XSRF check for insecure request GET /user/admin/api/kernels/39096c79-ad3b-4327-a649-51e05637b9bb/channels
+[I 2026-05-19 11:19:33.108 ServerApp] 101 GET /user/admin/api/kernels/39096c79-ad3b-4327-a649-51e05637b9bb/channels?session_id=a2450ae0-14b9-498d-aad6-8c015ac63f15 (admin@10.172.13.12) 2.06ms
+[I 2026-05-19 11:19:33.108 ServerApp] Connecting to kernel 39096c79-ad3b-4327-a649-51e05637b9bb.
+[I 2026-05-19 11:19:33.115 ServerApp] 200 GET /user/admin/api/sessions?1779185973111 (admin@10.172.13.12) 0.70ms
+[I 2026-05-19 11:19:33.117 ServerApp] 200 GET /user/admin/api/kernels?1779185973111 (admin@10.172.13.12) 0.60ms
+[I 2026-05-19 11:19:33.149 ServerApp] 200 GET /user/admin/api/sessions?1779185973145 (admin@10.172.13.12) 0.84ms
+[I 2026-05-19 11:19:33.150 ServerApp] 200 GET /user/admin/api/kernels?1779185973145 (admin@10.172.13.12) 0.59ms
+[I 2026-05-19 11:19:33.210 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1779185973147 (admin@10.172.13.12) 58.90ms
+[I 2026-05-19 11:19:33.230 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779185973213 (admin@10.172.13.12) 13.66ms
+[W 2026-05-19 11:19:34.323 ServerApp] Skipping XSRF check for insecure request GET /user/admin/kernelspecs/python3/logo-svg.svg
+[I 2026-05-19 11:19:34.910 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1779185974844 (admin@10.172.13.12) 61.46ms
+[I 2026-05-19 11:19:35.041 ServerApp] Creating new notebook in 
+[I 2026-05-19 11:19:35.378 ServerApp] 201 POST /user/admin/api/contents?1779185975037 (admin@10.172.13.12) 337.07ms
+[I 2026-05-19 11:19:35.387 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb?content=0&hash=0&1779185975382 (admin@10.172.13.12) 1.38ms
+[I 2026-05-19 11:19:35.403 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779185975383 (admin@10.172.13.12) 14.87ms
+[I 2026-05-19 11:19:35.543 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb?type=notebook&content=1&hash=1&contentProviderId=undefined&1779185975453 (admin@10.172.13.12) 86.83ms
+[I 2026-05-19 11:19:35.671 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb/checkpoints?1779185975565 (admin@10.172.13.12) 6.10ms
+[I 2026-05-19 11:19:35.672 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb/checkpoints?1779185975570 (admin@10.172.13.12) 5.94ms
+[I 2026-05-19 11:19:35.673 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb/checkpoints?1779185975565 (admin@10.172.13.12) 6.20ms
+[I 2026-05-19 11:19:35.689 ServerApp] 200 GET /user/admin/api/sessions?1779185975681 (admin@10.172.13.12) 3.46ms
+[I 2026-05-19 11:19:35.786 ServerApp] Kernel started: fa2ca0c6-5568-46f8-b39c-6cbb9e759444
+[I 2026-05-19 11:19:35.817 ServerApp] 201 POST /user/admin/api/sessions?1779185975696 (admin@10.172.13.12) 117.51ms
+[I 2026-05-19 11:19:35.827 ServerApp] 200 GET /user/admin/api/sessions?1779185975820 (admin@10.172.13.12) 1.42ms
+[W 2026-05-19 11:19:35.837 ServerApp] Skipping XSRF check for insecure request GET /user/admin/api/kernels/fa2ca0c6-5568-46f8-b39c-6cbb9e759444/channels
+[I 2026-05-19 11:19:35.842 ServerApp] 200 PATCH /user/admin/api/sessions/ebcefd84-daad-42b3-a496-a45443c2cadb?1779185975833 (admin@10.172.13.12) 1.91ms
+[I 2026-05-19 11:19:35.842 ServerApp] 200 GET /user/admin/api/kernels?1779185975834 (admin@10.172.13.12) 2.13ms
+[I 2026-05-19 11:19:35.856 ServerApp] 200 PATCH /user/admin/api/sessions/ebcefd84-daad-42b3-a496-a45443c2cadb?1779185975848 (admin@10.172.13.12) 1.40ms
+[I 2026-05-19 11:19:35.857 ServerApp] 200 GET /user/admin/api/sessions?1779185975849 (admin@10.172.13.12) 0.95ms
+[I 2026-05-19 11:19:35.874 ServerApp] 200 GET /user/admin/api/kernelspecs?1779185975867 (admin@10.172.13.12) 1.86ms
+[I 2026-05-19 11:19:36.146 ServerApp] 200 GET /user/admin/api/nbconvert?1779185975462 (admin@10.172.13.12) 602.47ms
+[I 2026-05-19 11:19:36.543 ServerApp] 101 GET /user/admin/api/kernels/fa2ca0c6-5568-46f8-b39c-6cbb9e759444/channels?session_id=51f771ab-4b3a-4fb8-9cc4-3781588e9b22 (admin@10.172.13.12) 707.02ms
+[I 2026-05-19 11:19:36.543 ServerApp] Connecting to kernel fa2ca0c6-5568-46f8-b39c-6cbb9e759444.
+[I 2026-05-19 11:19:36.622 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1779185976573 (admin@10.172.13.12) 45.83ms
+[I 2026-05-19 11:19:41.646 ServerApp] 200 GET /user/admin/api/terminals?1779185981640 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:19:41.648 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779185981641 (admin@10.172.13.12) 2.02ms
+[I 2026-05-19 11:19:45.591 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779185985571 (admin@10.172.13.12) 15.47ms
+[I 2026-05-19 11:19:45.855 ServerApp] 200 GET /user/admin/api/kernels?1779185985850 (admin@10.172.13.12) 0.91ms
+[I 2026-05-19 11:19:45.898 ServerApp] 200 GET /user/admin/api/sessions?1779185985892 (admin@10.172.13.12) 0.92ms
+[I 2026-05-19 11:19:51.665 ServerApp] 200 GET /user/admin/api/terminals?1779185991659 (admin@10.172.13.12) 1.10ms
+[I 2026-05-19 11:19:51.667 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779185991661 (admin@10.172.13.12) 1.09ms
+[I 2026-05-19 11:19:55.618 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779185995598 (admin@10.172.13.12) 15.96ms
+[I 2026-05-19 11:19:55.862 ServerApp] 200 GET /user/admin/api/kernels?1779185995859 (admin@10.172.13.12) 0.92ms
+[I 2026-05-19 11:19:55.906 ServerApp] 200 GET /user/admin/api/sessions?1779185995902 (admin@10.172.13.12) 0.89ms
+[I 2026-05-19 11:20:01.677 ServerApp] 200 GET /user/admin/api/terminals?1779186001671 (admin@10.172.13.12) 0.80ms
+[I 2026-05-19 11:20:01.678 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186001672 (admin@10.172.13.12) 1.18ms
+[I 2026-05-19 11:20:05.652 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186005632 (admin@10.172.13.12) 14.88ms
+[I 2026-05-19 11:20:05.870 ServerApp] 200 GET /user/admin/api/kernels?1779186005865 (admin@10.172.13.12) 0.96ms
+[I 2026-05-19 11:20:05.916 ServerApp] 200 GET /user/admin/api/sessions?1779186005910 (admin@10.172.13.12) 0.90ms
+[I 2026-05-19 11:20:07.650 ServerApp] 200 GET /user/admin/api/kernelspecs?1779186007644 (admin@10.172.13.12) 1.61ms
+[I 2026-05-19 11:20:11.701 ServerApp] 200 GET /user/admin/api/terminals?1779186011695 (admin@10.172.13.12) 0.80ms
+[I 2026-05-19 11:20:11.703 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186011696 (admin@10.172.13.12) 1.34ms
+[I 2026-05-19 11:20:15.701 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186015682 (admin@10.172.13.12) 14.76ms
+[I 2026-05-19 11:20:15.880 ServerApp] 200 GET /user/admin/api/kernels?1779186015874 (admin@10.172.13.12) 0.87ms
+[I 2026-05-19 11:20:15.926 ServerApp] 200 GET /user/admin/api/sessions?1779186015921 (admin@10.172.13.12) 1.01ms
+[I 2026-05-19 11:20:21.710 ServerApp] 200 GET /user/admin/api/terminals?1779186021705 (admin@10.172.13.12) 0.80ms
+[I 2026-05-19 11:20:21.713 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186021707 (admin@10.172.13.12) 1.33ms
+[I 2026-05-19 11:20:25.728 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186025707 (admin@10.172.13.12) 16.50ms
+[I 2026-05-19 11:20:25.888 ServerApp] 200 GET /user/admin/api/kernels?1779186025885 (admin@10.172.13.12) 0.58ms
+[I 2026-05-19 11:20:25.934 ServerApp] 200 GET /user/admin/api/sessions?1779186025929 (admin@10.172.13.12) 0.61ms
+[I 2026-05-19 11:20:31.745 ServerApp] 200 GET /user/admin/api/terminals?1779186031738 (admin@10.172.13.12) 0.81ms
+[I 2026-05-19 11:20:31.747 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186031739 (admin@10.172.13.12) 2.12ms
+[I 2026-05-19 11:20:32.646 ServerApp] 200 GET /user/admin/api/me?1779186032640 (admin@10.172.13.12) 0.87ms
+[I 2026-05-19 11:20:32.648 ServerApp] 200 GET /user/admin/api/kernelspecs?1779186032641 (admin@10.172.13.12) 2.08ms
+[I 2026-05-19 11:20:33.038 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1779186032961 (admin@10.172.13.12) 71.91ms
+[I 2026-05-19 11:20:35.754 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186035735 (admin@10.172.13.12) 15.13ms
+[I 2026-05-19 11:20:35.898 ServerApp] 200 GET /user/admin/api/kernels?1779186035893 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:20:35.942 ServerApp] 200 GET /user/admin/api/sessions?1779186035937 (admin@10.172.13.12) 0.93ms
+[I 2026-05-19 11:20:41.754 ServerApp] 200 GET /user/admin/api/terminals?1779186041748 (admin@10.172.13.12) 1.15ms
+[I 2026-05-19 11:20:41.758 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186041750 (admin@10.172.13.12) 2.66ms
+[I 2026-05-19 11:20:45.786 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186045761 (admin@10.172.13.12) 19.71ms
+[I 2026-05-19 11:20:45.907 ServerApp] 200 GET /user/admin/api/kernels?1779186045901 (admin@10.172.13.12) 0.81ms
+[I 2026-05-19 11:20:45.950 ServerApp] 200 GET /user/admin/api/sessions?1779186045945 (admin@10.172.13.12) 0.61ms
+[I 2026-05-19 11:20:47.139 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1779186047061 (admin@10.172.13.12) 73.20ms
+[I 2026-05-19 11:20:51.762 ServerApp] 200 GET /user/admin/api/terminals?1779186051757 (admin@10.172.13.12) 0.80ms
+[I 2026-05-19 11:20:51.766 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186051761 (admin@10.172.13.12) 1.99ms
+[I 2026-05-19 11:20:55.810 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186055792 (admin@10.172.13.12) 13.80ms
+[I 2026-05-19 11:20:55.916 ServerApp] 200 GET /user/admin/api/kernels?1779186055910 (admin@10.172.13.12) 0.81ms
+[I 2026-05-19 11:20:55.960 ServerApp] 200 GET /user/admin/api/sessions?1779186055956 (admin@10.172.13.12) 0.92ms
+[I 2026-05-19 11:21:01.772 ServerApp] 200 GET /user/admin/api/terminals?1779186061766 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:21:01.776 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186061771 (admin@10.172.13.12) 1.23ms
+[I 2026-05-19 11:21:05.836 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186065818 (admin@10.172.13.12) 13.95ms
+[I 2026-05-19 11:21:05.926 ServerApp] 200 GET /user/admin/api/kernels?1779186065921 (admin@10.172.13.12) 0.85ms
+[I 2026-05-19 11:21:05.968 ServerApp] 200 GET /user/admin/api/sessions?1779186065964 (admin@10.172.13.12) 0.72ms
+[I 2026-05-19 11:21:11.783 ServerApp] 200 GET /user/admin/api/terminals?1779186071777 (admin@10.172.13.12) 0.73ms
+[I 2026-05-19 11:21:11.788 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186071782 (admin@10.172.13.12) 1.24ms
+[I 2026-05-19 11:21:15.903 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186075875 (admin@10.172.13.12) 23.39ms
+[I 2026-05-19 11:21:15.938 ServerApp] 200 GET /user/admin/api/kernels?1779186075930 (admin@10.172.13.12) 1.01ms
+[I 2026-05-19 11:21:15.977 ServerApp] 200 GET /user/admin/api/sessions?1779186075972 (admin@10.172.13.12) 0.91ms
+[I 2026-05-19 11:21:21.793 ServerApp] 200 GET /user/admin/api/terminals?1779186081786 (admin@10.172.13.12) 0.79ms
+[I 2026-05-19 11:21:21.798 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186081793 (admin@10.172.13.12) 1.25ms
+[I 2026-05-19 11:21:25.929 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186085910 (admin@10.172.13.12) 15.77ms
+[I 2026-05-19 11:21:25.945 ServerApp] 200 GET /user/admin/api/kernels?1779186085940 (admin@10.172.13.12) 0.54ms
+[I 2026-05-19 11:21:25.985 ServerApp] 200 GET /user/admin/api/sessions?1779186085980 (admin@10.172.13.12) 0.58ms
+[I 2026-05-19 11:21:31.803 ServerApp] 200 GET /user/admin/api/terminals?1779186091797 (admin@10.172.13.12) 1.08ms
+[I 2026-05-19 11:21:31.808 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186091802 (admin@10.172.13.12) 2.36ms
+[I 2026-05-19 11:21:33.657 ServerApp] 200 GET /user/admin/api/me?1779186093650 (admin@10.172.13.12) 1.09ms
+[I 2026-05-19 11:21:33.660 ServerApp] 200 GET /user/admin/api/kernelspecs?1779186093652 (admin@10.172.13.12) 2.70ms
+[I 2026-05-19 11:21:35.577 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb?content=0&hash=1&contentProviderId=undefined&1779186095572 (admin@10.172.13.12) 1.82ms
+[I 2026-05-19 11:21:35.584 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-05-19 11:21:35.799 ServerApp] 200 PUT /user/admin/api/contents/Untitled.ipynb?1779186095582 (admin@10.172.13.12) 214.80ms
+[I 2026-05-19 11:21:35.810 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb?content=0&hash=1&contentProviderId=undefined&1779186095803 (admin@10.172.13.12) 3.08ms
+[I 2026-05-19 11:21:35.824 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186095804 (admin@10.172.13.12) 15.25ms
+[I 2026-05-19 11:21:35.829 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb/checkpoints?1779186095823 (admin@10.172.13.12) 2.03ms
+[I 2026-05-19 11:21:35.953 ServerApp] 200 GET /user/admin/api/kernels?1779186095948 (admin@10.172.13.12) 0.79ms
+[I 2026-05-19 11:21:35.993 ServerApp] 200 GET /user/admin/api/sessions?1779186095988 (admin@10.172.13.12) 0.72ms
+[I 2026-05-19 11:21:41.813 ServerApp] 200 GET /user/admin/api/terminals?1779186101807 (admin@10.172.13.12) 1.04ms
+[I 2026-05-19 11:21:41.817 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186101811 (admin@10.172.13.12) 2.08ms
+[I 2026-05-19 11:21:45.870 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186105843 (admin@10.172.13.12) 22.27ms
+[I 2026-05-19 11:21:45.961 ServerApp] 200 GET /user/admin/api/kernels?1779186105957 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:21:46.001 ServerApp] 200 GET /user/admin/api/sessions?1779186105997 (admin@10.172.13.12) 0.60ms
+[I 2026-05-19 11:21:51.823 ServerApp] 200 GET /user/admin/api/terminals?1779186111817 (admin@10.172.13.12) 0.76ms
+[I 2026-05-19 11:21:51.826 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186111820 (admin@10.172.13.12) 1.26ms
+[I 2026-05-19 11:21:55.903 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186115878 (admin@10.172.13.12) 21.06ms
+[I 2026-05-19 11:21:55.970 ServerApp] 200 GET /user/admin/api/kernels?1779186115965 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:21:56.010 ServerApp] 200 GET /user/admin/api/sessions?1779186116005 (admin@10.172.13.12) 0.91ms
+[I 2026-05-19 11:22:01.832 ServerApp] 200 GET /user/admin/api/terminals?1779186121827 (admin@10.172.13.12) 0.78ms
+[I 2026-05-19 11:22:01.835 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186121830 (admin@10.172.13.12) 1.13ms
+[I 2026-05-19 11:22:05.928 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186125909 (admin@10.172.13.12) 13.93ms
+[I 2026-05-19 11:22:05.980 ServerApp] 200 GET /user/admin/api/kernels?1779186125975 (admin@10.172.13.12) 0.54ms
+[I 2026-05-19 11:22:06.019 ServerApp] 200 GET /user/admin/api/sessions?1779186126014 (admin@10.172.13.12) 0.59ms
+[I 2026-05-19 11:22:11.842 ServerApp] 200 GET /user/admin/api/terminals?1779186131836 (admin@10.172.13.12) 0.73ms
+[I 2026-05-19 11:22:11.845 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186131839 (admin@10.172.13.12) 1.22ms
+[I 2026-05-19 11:22:15.952 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186135933 (admin@10.172.13.12) 14.07ms
+[I 2026-05-19 11:22:15.989 ServerApp] 200 GET /user/admin/api/kernels?1779186135984 (admin@10.172.13.12) 0.74ms
+[I 2026-05-19 11:22:16.027 ServerApp] 200 GET /user/admin/api/sessions?1779186136022 (admin@10.172.13.12) 0.63ms
+[I 2026-05-19 11:22:21.851 ServerApp] 200 GET /user/admin/api/terminals?1779186141846 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:22:21.854 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186141848 (admin@10.172.13.12) 1.26ms
+[I 2026-05-19 11:22:25.978 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186145959 (admin@10.172.13.12) 14.47ms
+[I 2026-05-19 11:22:25.997 ServerApp] 200 GET /user/admin/api/kernels?1779186145993 (admin@10.172.13.12) 0.55ms
+[I 2026-05-19 11:22:26.037 ServerApp] 200 GET /user/admin/api/sessions?1779186146032 (admin@10.172.13.12) 0.59ms
+[I 2026-05-19 11:22:31.859 ServerApp] 200 GET /user/admin/api/terminals?1779186151853 (admin@10.172.13.12) 0.76ms
+[I 2026-05-19 11:22:31.863 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186151857 (admin@10.172.13.12) 1.96ms
+[I 2026-05-19 11:22:34.668 ServerApp] 200 GET /user/admin/api/me?1779186154661 (admin@10.172.13.12) 1.18ms
+[I 2026-05-19 11:22:34.671 ServerApp] 200 GET /user/admin/api/kernelspecs?1779186154664 (admin@10.172.13.12) 2.21ms
+[I 2026-05-19 11:22:36.006 ServerApp] 200 GET /user/admin/api/kernels?1779186156000 (admin@10.172.13.12) 1.05ms
+[I 2026-05-19 11:22:36.009 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186155984 (admin@10.172.13.12) 20.92ms
+[I 2026-05-19 11:22:36.046 ServerApp] 200 GET /user/admin/api/sessions?1779186156040 (admin@10.172.13.12) 1.41ms
+[I 2026-05-19 11:22:41.869 ServerApp] 200 GET /user/admin/api/terminals?1779186161862 (admin@10.172.13.12) 0.77ms
+[I 2026-05-19 11:22:41.872 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186161866 (admin@10.172.13.12) 1.25ms
+[I 2026-05-19 11:22:46.015 ServerApp] 200 GET /user/admin/api/kernels?1779186166010 (admin@10.172.13.12) 0.84ms
+[I 2026-05-19 11:22:46.042 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186166015 (admin@10.172.13.12) 22.32ms
+[I 2026-05-19 11:22:46.054 ServerApp] 200 GET /user/admin/api/sessions?1779186166050 (admin@10.172.13.12) 0.85ms
+[I 2026-05-19 11:22:51.879 ServerApp] 200 GET /user/admin/api/terminals?1779186171873 (admin@10.172.13.12) 0.79ms
+[I 2026-05-19 11:22:51.882 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186171876 (admin@10.172.13.12) 1.23ms
+[I 2026-05-19 11:22:56.024 ServerApp] 200 GET /user/admin/api/kernels?1779186176018 (admin@10.172.13.12) 0.96ms
+[I 2026-05-19 11:22:56.062 ServerApp] 200 GET /user/admin/api/sessions?1779186176058 (admin@10.172.13.12) 0.97ms
+[I 2026-05-19 11:22:56.069 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186176048 (admin@10.172.13.12) 16.73ms
+[I 2026-05-19 11:23:01.888 ServerApp] 200 GET /user/admin/api/terminals?1779186181882 (admin@10.172.13.12) 0.81ms
+[I 2026-05-19 11:23:01.890 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186181885 (admin@10.172.13.12) 1.17ms
+[I 2026-05-19 11:23:06.033 ServerApp] 200 GET /user/admin/api/kernels?1779186186028 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:23:06.072 ServerApp] 200 GET /user/admin/api/sessions?1779186186066 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:23:06.093 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186186075 (admin@10.172.13.12) 13.62ms
+[I 2026-05-19 11:23:11.899 ServerApp] 200 GET /user/admin/api/terminals?1779186191892 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:23:11.900 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186191893 (admin@10.172.13.12) 1.28ms
+[I 2026-05-19 11:23:16.043 ServerApp] 200 GET /user/admin/api/kernels?1779186196037 (admin@10.172.13.12) 0.82ms
+[I 2026-05-19 11:23:16.082 ServerApp] 200 GET /user/admin/api/sessions?1779186196077 (admin@10.172.13.12) 0.77ms
+[I 2026-05-19 11:23:16.116 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186196098 (admin@10.172.13.12) 13.68ms
+[I 2026-05-19 11:23:21.909 ServerApp] 200 GET /user/admin/api/terminals?1779186201903 (admin@10.172.13.12) 0.79ms
+[I 2026-05-19 11:23:21.911 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186201904 (admin@10.172.13.12) 1.41ms
+[I 2026-05-19 11:23:26.053 ServerApp] 200 GET /user/admin/api/kernels?1779186206047 (admin@10.172.13.12) 0.89ms
+[I 2026-05-19 11:23:26.092 ServerApp] 200 GET /user/admin/api/sessions?1779186206086 (admin@10.172.13.12) 0.88ms
+[I 2026-05-19 11:23:26.140 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186206122 (admin@10.172.13.12) 13.81ms
+[I 2026-05-19 11:23:31.919 ServerApp] 200 GET /user/admin/api/terminals?1779186211913 (admin@10.172.13.12) 0.76ms
+[I 2026-05-19 11:23:31.922 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186211915 (admin@10.172.13.12) 1.80ms
+[I 2026-05-19 11:23:35.678 ServerApp] 200 GET /user/admin/api/me?1779186215673 (admin@10.172.13.12) 0.88ms
+[I 2026-05-19 11:23:35.680 ServerApp] 200 GET /user/admin/api/kernelspecs?1779186215675 (admin@10.172.13.12) 2.02ms
+[I 2026-05-19 11:23:36.064 ServerApp] 200 GET /user/admin/api/kernels?1779186216056 (admin@10.172.13.12) 2.14ms
+[I 2026-05-19 11:23:36.104 ServerApp] 200 GET /user/admin/api/sessions?1779186216096 (admin@10.172.13.12) 2.32ms
+[I 2026-05-19 11:23:36.165 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186216146 (admin@10.172.13.12) 14.67ms
+[I 2026-05-19 11:23:41.927 ServerApp] 200 GET /user/admin/api/terminals?1779186221922 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:23:41.930 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186221927 (admin@10.172.13.12) 1.18ms
+[I 2026-05-19 11:23:46.073 ServerApp] 200 GET /user/admin/api/kernels?1779186226068 (admin@10.172.13.12) 0.84ms
+[I 2026-05-19 11:23:46.113 ServerApp] 200 GET /user/admin/api/sessions?1779186226107 (admin@10.172.13.12) 0.71ms
+[I 2026-05-19 11:23:46.198 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186226171 (admin@10.172.13.12) 21.85ms
+[I 2026-05-19 11:23:51.936 ServerApp] 200 GET /user/admin/api/terminals?1779186231930 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:23:51.939 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186231933 (admin@10.172.13.12) 1.19ms
+[I 2026-05-19 11:23:56.083 ServerApp] 200 GET /user/admin/api/kernels?1779186236078 (admin@10.172.13.12) 0.80ms
+[I 2026-05-19 11:23:56.122 ServerApp] 200 GET /user/admin/api/sessions?1779186236117 (admin@10.172.13.12) 0.72ms
+[I 2026-05-19 11:23:56.222 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186236204 (admin@10.172.13.12) 13.54ms
+[I 2026-05-19 11:24:01.945 ServerApp] 200 GET /user/admin/api/terminals?1779186241939 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:24:01.948 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186241943 (admin@10.172.13.12) 1.20ms
+[I 2026-05-19 11:24:06.092 ServerApp] 200 GET /user/admin/api/kernels?1779186246086 (admin@10.172.13.12) 0.83ms
+[I 2026-05-19 11:24:06.129 ServerApp] 200 GET /user/admin/api/sessions?1779186246126 (admin@10.172.13.12) 0.66ms
+[I 2026-05-19 11:24:06.247 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186246229 (admin@10.172.13.12) 14.16ms
+[I 2026-05-19 11:24:11.953 ServerApp] 200 GET /user/admin/api/terminals?1779186251948 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:24:11.956 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186251952 (admin@10.172.13.12) 1.07ms
+[I 2026-05-19 11:24:16.102 ServerApp] 200 GET /user/admin/api/kernels?1779186256096 (admin@10.172.13.12) 0.84ms
+[I 2026-05-19 11:24:16.137 ServerApp] 200 GET /user/admin/api/sessions?1779186256133 (admin@10.172.13.12) 0.70ms
+[I 2026-05-19 11:24:16.271 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186256254 (admin@10.172.13.12) 13.53ms
+[I 2026-05-19 11:24:21.962 ServerApp] 200 GET /user/admin/api/terminals?1779186261956 (admin@10.172.13.12) 1.11ms
+[I 2026-05-19 11:24:21.964 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186261958 (admin@10.172.13.12) 1.35ms
+[I 2026-05-19 11:24:26.111 ServerApp] 200 GET /user/admin/api/kernels?1779186266106 (admin@10.172.13.12) 0.81ms
+[I 2026-05-19 11:24:26.147 ServerApp] 200 GET /user/admin/api/sessions?1779186266141 (admin@10.172.13.12) 0.87ms
+[I 2026-05-19 11:24:26.296 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186266277 (admin@10.172.13.12) 13.78ms
+[I 2026-05-19 11:24:32.046 ServerApp] 200 GET /user/admin/api/terminals?1779186271965 (admin@10.172.13.12) 76.04ms
+[I 2026-05-19 11:24:32.049 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186271967 (admin@10.172.13.12) 77.71ms
+[I 2026-05-19 11:24:36.121 ServerApp] 200 GET /user/admin/api/kernels?1779186276115 (admin@10.172.13.12) 0.82ms
+[I 2026-05-19 11:24:36.156 ServerApp] 200 GET /user/admin/api/sessions?1779186276152 (admin@10.172.13.12) 0.76ms
+[I 2026-05-19 11:24:36.320 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186276302 (admin@10.172.13.12) 13.43ms
+[I 2026-05-19 11:24:36.688 ServerApp] 200 GET /user/admin/api/me?1779186276684 (admin@10.172.13.12) 0.80ms
+[I 2026-05-19 11:24:36.690 ServerApp] 200 GET /user/admin/api/kernelspecs?1779186276684 (admin@10.172.13.12) 1.80ms
+[I 2026-05-19 11:24:42.056 ServerApp] 200 GET /user/admin/api/terminals?1779186282050 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:24:42.058 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186282053 (admin@10.172.13.12) 1.05ms
+[I 2026-05-19 11:24:46.130 ServerApp] 200 GET /user/admin/api/kernels?1779186286125 (admin@10.172.13.12) 0.84ms
+[I 2026-05-19 11:24:46.166 ServerApp] 200 GET /user/admin/api/sessions?1779186286161 (admin@10.172.13.12) 0.76ms
+[I 2026-05-19 11:24:46.352 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186286326 (admin@10.172.13.12) 21.91ms
+[I 2026-05-19 11:24:52.067 ServerApp] 200 GET /user/admin/api/terminals?1779186292061 (admin@10.172.13.12) 0.77ms
+[I 2026-05-19 11:24:52.068 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186292062 (admin@10.172.13.12) 1.10ms
+[I 2026-05-19 11:24:56.140 ServerApp] 200 GET /user/admin/api/kernels?1779186296135 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:24:56.175 ServerApp] 200 GET /user/admin/api/sessions?1779186296170 (admin@10.172.13.12) 0.91ms
+[I 2026-05-19 11:24:56.376 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186296359 (admin@10.172.13.12) 13.49ms
+[I 2026-05-19 11:25:02.077 ServerApp] 200 GET /user/admin/api/terminals?1779186302070 (admin@10.172.13.12) 1.11ms
+[I 2026-05-19 11:25:02.079 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186302071 (admin@10.172.13.12) 1.57ms
+[I 2026-05-19 11:25:06.150 ServerApp] 200 GET /user/admin/api/kernels?1779186306144 (admin@10.172.13.12) 1.24ms
+[I 2026-05-19 11:25:06.185 ServerApp] 200 GET /user/admin/api/sessions?1779186306179 (admin@10.172.13.12) 1.22ms
+[I 2026-05-19 11:25:06.408 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186306382 (admin@10.172.13.12) 21.67ms
+[I 2026-05-19 11:25:12.088 ServerApp] 200 GET /user/admin/api/terminals?1779186312082 (admin@10.172.13.12) 0.74ms
+[I 2026-05-19 11:25:12.090 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186312083 (admin@10.172.13.12) 1.32ms
+[I 2026-05-19 11:25:16.161 ServerApp] 200 GET /user/admin/api/kernels?1779186316155 (admin@10.172.13.12) 1.20ms
+[I 2026-05-19 11:25:16.195 ServerApp] 200 GET /user/admin/api/sessions?1779186316190 (admin@10.172.13.12) 1.01ms
+[I 2026-05-19 11:25:16.433 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186316415 (admin@10.172.13.12) 13.66ms
+[W 2026-05-19 11:25:21.119 ServerApp] Skipping XSRF check for insecure request GET /user/admin/static/favicons/favicon-busy-1.ico
+[I 2026-05-19 11:25:22.074 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1779186321993 (admin@10.172.13.12) 73.59ms
+[I 2026-05-19 11:25:22.096 ServerApp] 200 GET /user/admin/api/terminals?1779186322092 (admin@10.172.13.12) 0.72ms
+[I 2026-05-19 11:25:22.100 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186322093 (admin@10.172.13.12) 1.87ms
+[I 2026-05-19 11:25:26.170 ServerApp] 200 GET /user/admin/api/kernels?1779186326165 (admin@10.172.13.12) 0.87ms
+[I 2026-05-19 11:25:26.204 ServerApp] 200 GET /user/admin/api/sessions?1779186326199 (admin@10.172.13.12) 0.61ms
+[I 2026-05-19 11:25:26.458 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186326439 (admin@10.172.13.12) 14.03ms
+[I 2026-05-19 11:25:32.209 ServerApp] 200 GET /user/admin/api/terminals?1779186332203 (admin@10.172.13.12) 0.76ms
+[I 2026-05-19 11:25:32.211 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186332203 (admin@10.172.13.12) 1.91ms
+[I 2026-05-19 11:25:35.833 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb?content=0&hash=1&contentProviderId=undefined&1779186335826 (admin@10.172.13.12) 1.87ms
+[I 2026-05-19 11:25:35.847 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-05-19 11:25:36.110 ServerApp] 200 PUT /user/admin/api/contents/Untitled.ipynb?1779186335842 (admin@10.172.13.12) 263.46ms
+[I 2026-05-19 11:25:36.120 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb?content=0&hash=1&contentProviderId=undefined&1779186336114 (admin@10.172.13.12) 2.45ms
+[I 2026-05-19 11:25:36.131 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb/checkpoints?1779186336125 (admin@10.172.13.12) 2.04ms
+[I 2026-05-19 11:25:36.140 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186336115 (admin@10.172.13.12) 19.06ms
+[I 2026-05-19 11:25:36.179 ServerApp] 200 GET /user/admin/api/kernels?1779186336174 (admin@10.172.13.12) 0.89ms
+[I 2026-05-19 11:25:36.212 ServerApp] 200 GET /user/admin/api/sessions?1779186336207 (admin@10.172.13.12) 0.92ms
+[I 2026-05-19 11:25:37.698 ServerApp] 200 GET /user/admin/api/me?1779186337692 (admin@10.172.13.12) 0.85ms
+[I 2026-05-19 11:25:37.700 ServerApp] 200 GET /user/admin/api/kernelspecs?1779186337693 (admin@10.172.13.12) 1.77ms
+[I 2026-05-19 11:25:42.218 ServerApp] 200 GET /user/admin/api/terminals?1779186342211 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:25:42.221 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186342214 (admin@10.172.13.12) 1.42ms
+[I 2026-05-19 11:25:46.186 ServerApp] 200 GET /user/admin/api/kernels?1779186346181 (admin@10.172.13.12) 0.66ms
+[I 2026-05-19 11:25:46.187 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186346167 (admin@10.172.13.12) 15.79ms
+[I 2026-05-19 11:25:46.255 ServerApp] 200 GET /user/admin/api/sessions?1779186346251 (admin@10.172.13.12) 0.71ms
+[I 2026-05-19 11:25:49.009 ServerApp] 204 PUT /user/admin/lab/api/workspaces/default?1779186348937 (admin@10.172.13.12) 67.11ms
+[I 2026-05-19 11:25:51.115 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb?content=0&hash=1&contentProviderId=undefined&1779186351108 (admin@10.172.13.12) 1.82ms
+[I 2026-05-19 11:25:51.124 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-05-19 11:25:51.333 ServerApp] 200 PUT /user/admin/api/contents/Untitled.ipynb?1779186351119 (admin@10.172.13.12) 209.68ms
+[I 2026-05-19 11:25:51.351 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb?content=0&hash=1&contentProviderId=undefined&1779186351341 (admin@10.172.13.12) 3.09ms
+[I 2026-05-19 11:25:51.364 ServerApp] 200 GET /user/admin/api/contents/Untitled.ipynb/checkpoints?1779186351356 (admin@10.172.13.12) 3.62ms
+[I 2026-05-19 11:25:51.370 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186351342 (admin@10.172.13.12) 20.11ms
+[I 2026-05-19 11:25:51.432 ServerApp] 201 POST /user/admin/api/contents/Untitled.ipynb/checkpoints?1779186351357 (admin@10.172.13.12) 69.08ms
+[I 2026-05-19 11:25:52.227 ServerApp] 200 GET /user/admin/api/terminals?1779186352221 (admin@10.172.13.12) 0.80ms
+[I 2026-05-19 11:25:52.231 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186352226 (admin@10.172.13.12) 1.84ms
+[I 2026-05-19 11:25:56.196 ServerApp] 200 GET /user/admin/api/kernels?1779186356190 (admin@10.172.13.12) 0.87ms
+[I 2026-05-19 11:25:56.263 ServerApp] 200 GET /user/admin/api/sessions?1779186356258 (admin@10.172.13.12) 0.63ms
+[I 2026-05-19 11:26:01.398 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186361378 (admin@10.172.13.12) 15.08ms
+[I 2026-05-19 11:26:02.235 ServerApp] 200 GET /user/admin/api/terminals?1779186362230 (admin@10.172.13.12) 0.82ms
+[I 2026-05-19 11:26:02.238 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186362234 (admin@10.172.13.12) 1.34ms
+[I 2026-05-19 11:26:06.791 ServerApp] 200 GET /user/admin/api/kernels?1779186366786 (admin@10.172.13.12) 0.86ms
+[I 2026-05-19 11:26:06.794 ServerApp] 200 GET /user/admin/api/sessions?1779186366787 (admin@10.172.13.12) 1.08ms
+[I 2026-05-19 11:26:11.421 ServerApp] 200 GET /user/admin/api/contents?content=1&hash=0&1779186371403 (admin@10.172.13.12) 14.30ms
+[I 2026-05-19 11:26:12.409 ServerApp] 200 GET /user/admin/api/terminals?1779186372403 (admin@10.172.13.12) 0.75ms
+[I 2026-05-19 11:26:12.411 ServerApp] 200 GET /user/admin/lab/api/workspaces?1779186372404 (admin@10.172.13.12) 1.11ms
+[I 2026-05-19 11:26:20.608 ServerApp] Starting buffering for 39096c79-ad3b-4327-a649-51e05637b9bb:bbfcbfbb-46a5-44c7-8084-e7b8ae9bf734
+[I 2026-05-19 11:26:20.608 ServerApp] Starting buffering for fa2ca0c6-5568-46f8-b39c-6cbb9e759444:51f771ab-4b3a-4fb8-9cc4-3781588e9b22
+slurmstepd: error: *** JOB 33 ON slurm01 CANCELLED AT 2026-05-19T11:26:20 ***

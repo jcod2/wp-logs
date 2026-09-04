@@ -1,0 +1,10 @@
+[I 2026-05-19 11:19:16.543 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-05-19 11:19:16.547 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-05-19 11:19:16.547 JupyterHubSingleUser] Starting jupyterhub single-user server extension version 5.4.6
+[I 2026-05-19 11:19:16.547 JupyterHubSingleUser] Using default url from server extension lab: /lab
+[I 2026-05-19 11:19:16.550 ServerApp] jupyterhub | extension was successfully linked.
+[W 2026-05-19 11:19:16.551 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-05-19 11:19:16.554 ServerApp] jupyterlab | extension was successfully linked.
+[W 2026-05-19 11:19:16.555 JupyterNotebookApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[I 2026-05-19 11:19:16.558 ServerApp] notebook | extension was successfully linked.
+slurmstepd: error: *** JOB 32 ON slurm01 CANCELLED AT 2026-05-19T11:19:16 ***
